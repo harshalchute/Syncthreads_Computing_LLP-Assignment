@@ -10,12 +10,12 @@ app.use(cors());
 
 app.use('/', require('./routes/app.route'));
 
-// app.get('/**', (req, res) => {
-//     return res.json({
-//         status: 400,
-//         message: 'not found'
-//     })
-// })
+app.get('/**', (req, res) => {
+    return res.json({
+        status: 400,
+        message: 'not found'
+    })
+})
 
 
 // // Deployment :
