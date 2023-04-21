@@ -19,12 +19,10 @@ app.use('/', require('./routes/app.route'));
 
 
 // // Deployment :
-app.use(express.static(path.resolve(__dirname, './www')));
-app.use(express.static(path.resolve(__dirname, './www/assets')));
-app.use(express.static(path.resolve(__dirname, './www/static')));
+app.use(express.static(path.resolve(__dirname, './f-app')));
 
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './www', 'index.html'));
+    res.sendFile(path.resolve(__dirname, './f-app/build', 'index.html'));
 });
 
 
