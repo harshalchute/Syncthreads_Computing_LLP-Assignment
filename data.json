@@ -1,0 +1,66 @@
+[
+    {
+        "id":"1",
+        "location":"Mumbai",
+        "title":"Taj Hotel",
+        "latitude":"18.921850372607572",
+        "longitude":"72.83313506169915",
+        "cover_image":"https://2.bp.blogspot.com/-KozxEtJcjKs/UpWCydVYoeI/AAAAAAAANa0/6BdyHHlY4ks/s1600/hotel+taj+hd+wallpaper.jpg"
+    },
+    {
+        "id":"2",
+        "location":"Pune",
+        "title":"Shanivar Wada",
+        "latitude":"18.519617281288312", 
+        "longitude":"73.85527458105474",
+        "cover_image":"https://punetourism.co.in/images/places-to-visit/headers/shaniwar-wada-pune-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+    },
+    {
+        "id":"3",
+        "location":"Banglore",
+        "title":"Saint Mary's Basilica",
+        "latitude":"12.984653850039937",
+        "longitude":"77.60438670982045",
+        "cover_image":"https://image3.mouthshut.com/images/imagesp/925754432s.jpg"
+    },
+    {
+        "id":"4",
+        "location":"Nagpur",
+        "title":"RBI Square",
+        "latitude":"21.152908899358405",
+        "longitude":"79.08094170993417",
+        "cover_image":"https://3.bp.blogspot.com/-Mcg1Go6ndas/V6OE3oX0X3I/AAAAAAAAQG8/kyCw7BoH0tscPagWYIOVOzLCnbjOEZjxwCLcB/s1600/Reserve%2BBank%2BSamvidhan%2BSquare%2BNagpur.jpg"
+    },
+    {
+        "id":"5",
+        "location":"Hyderabad",
+        "title":"Char Minar",
+        "latitude":"17.361562829149314",
+        "longitude":"78.47471202709096",
+        "cover_image":"https://c1.staticflickr.com/3/2350/2500479380_310e173d56_b.jpg"
+    },
+    {
+        "id":"6",
+        "location":"Delhi",
+        "title":"India Gate",
+        "latitude":"28.613388676317637", 
+        "longitude":"77.22917121348739",
+        "cover_image":"https://www.goophe.com/wp-content/uploads/2018/05/b531f78c5de4f8959f65d6dee9c6a476.jpg"
+    },
+    {
+        "id":"7",
+        "location":"Goa",
+        "title":"Baga Beach",
+        "latitude":"15.55564356530367",
+        "longitude":"73.75158392730562",
+        "cover_image":"https://static.tildacdn.com/tild3437-6465-4262-b539-643163353634/shutterstock_2.jpg"
+    },
+    {
+        "id":"8",
+        "location":"Amritsar",
+        "title":"Golden Temple",
+        "latitude":"31.620970444337647", 
+        "longitude":"74.87737929624132",
+        "cover_image":"https://1.bp.blogspot.com/-SwoB_RpA3-k/VB7bqoIEz0I/AAAAAAAASJ8/xs_5pCLrL3c/s1600/amritsar%2Bgolden%2Btemple%2Bmorning1.jpg"
+    }
+]
