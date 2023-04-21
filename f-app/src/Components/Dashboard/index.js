@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const baseURL = "http://localhost:8000";
+const baseURL = "https://map-app-mauve.vercel.app";
 
 export default function Dashboard() {
 

@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Dashboard from "../Dashboard";
 import axios from "axios";
 
-const baseURL = "http://localhost:8000";
+const baseURL = "https://map-app-mauve.vercel.app";
 
 
 // Authentication to Login :

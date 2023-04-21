@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import IndiaMap from '../Dashboard/IndianMap';
 import axios from "axios";
 
-const baseURL = "http://localhost:8000";
+const baseURL = "https://map-app-mauve.vercel.app";
 
 export default function MapView() {
 
