@@ -10,20 +10,20 @@ app.use(cors());
 
 app.use('/', require('./routes/app.route'));
 
-app.get('/**', (req, res) => {
-    return res.json({
-        status: 400,
-        message: 'not found'
-    })
-})
+// app.get('/**', (req, res) => {
+//     return res.json({
+//         status: 400,
+//         message: 'not found'
+//     })
+// })
 
 
 // // Deployment :
-// app.use(express.static(path.resolve(__dirname, './client/build')));
+app.use(express.static(path.resolve(__dirname, './www')));
 
-// app.get('*', (req, res) => {
-//     res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
-// });
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './www', 'index.html'));
+});
 
 
 app.listen(PORT, () => {
