@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Dashboard from "../Dashboard";
 import axios from "axios";
 
-const baseURL = "https://map-app-delta.vercel.app";
+const baseURL = "https://map-app-gamma.vercel.app";
 
 
 // Authentication to Login :

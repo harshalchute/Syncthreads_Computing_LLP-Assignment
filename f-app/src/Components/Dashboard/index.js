@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const baseURL = "https://map-app-delta.vercel.app";
+const baseURL = "https://map-app-gamma.vercel.app";
 
 export default function Dashboard() {
 
