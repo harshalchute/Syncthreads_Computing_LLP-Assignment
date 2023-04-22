@@ -55,43 +55,44 @@ function Login(props) {
     <div className="block-back">
       <img className="img-back" src="assets/img_1.jpg" alt="log img" />
     </div>
-    <div className='register-form'>
-      <Card style={{ width: '100%' }} className="shadow-lg card-back">
-        <Card.Body className="card_body_test" style={{ backgroundColor: '#f8f8ff66' }} >
-          <h3 className='mb-3 text-center fw-bold'>USER LOGIN</h3>
-          <div style={{ maxWidth: '248px', margin: 'auto' }}>
-            <Form onSubmit={submit}>
+    <div className='login_form'>
+      <div className="login_form_card">
+        <div className="card login_form_body w-100 h-100">
+          <div>
+            <main class="form-signin w-100 m-auto">
+              <form>
+                <h1 class="h3 mb-4" style={{ fontWeight: '600 !important', letterSpacing: '2px' }}>Sign In</h1>
+                <div class="form-floating">
+                  <input type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                    value={emailAddress}
+                    onChange={(event) => setEmailAddress(event.target.value)}
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
 
-              <Form.Group className="mb-3 fw-bolder" >
-                <Form.Label style={{ marginRight: '350px', width: '103px' }}>Email address</Form.Label>
-                <Form.Control
-                  type="email"
-                  value={emailAddress}
-                  onChange={(event) => setEmailAddress(event.target.value)
-                  }
-                  placeholder="Enter email"
-                />
-              </Form.Group>
+                <div class="form-floating">
+                  <input type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)
+                    }
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
 
-              <Form.Group className="mb-3 fw-bolder" >
-                <Form.Label style={{ marginRight: '380px' }}>Password</Form.Label>
-                <Form.Control
-                  type="password"
-                  value={password}
-                  onChange={(event) => setPassword(event.target.value)
-                  }
-                  placeholder="Password"
-                />
-              </Form.Group>
+                <button class="w-100 btn btn-lg btn-primary" type="submit" onClick={submit}>Sign in</button>
 
-              <Button variant="primary" style={{ marginTop: '5px' }} type="button" onClick={submit}>
-                Login
-              </Button>
+              </form>
+            </main>
 
-            </Form>
           </div>
-        </Card.Body>
-      </Card>
+        </div>
+      </div>
     </div>
   </div>);
 }
