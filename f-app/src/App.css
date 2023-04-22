@@ -80,11 +80,6 @@
   align-items: center;
 }
 
-.login_form_card {
-  width: 27%;
-  height: calc(38% - 16px);
-}
-
 .login_form_body {
   background-color: #f8f8ff66 !important;
 }
@@ -115,7 +110,17 @@
 @media (max-width: 1257px) {
   .login_form_card {
     width: 21em !important;
-    height: calc(16em - 4px);
+    height: calc(16em - 4px) !important;
+  }
+
+}
+
+/* Media Query for Mobile Devices */
+@media (min-width: 1257px) {
+
+  .login_form_card {
+    width: 27%;
+    height: calc(38% - 16px);
   }
 
 }

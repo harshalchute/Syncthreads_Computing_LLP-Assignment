@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Dashboard from "../Dashboard";
 import axios from "axios";
 
-const baseURL = "https://map-app-mauve.vercel.app";
+const baseURL = "https://map-app-delta.vercel.app";
 
 
 // Authentication to Login :
@@ -60,7 +60,7 @@ function Login(props) {
         <div className="card login_form_body w-100 h-100">
           <div>
             <main class="form-signin w-100 m-auto">
-              <form>
+              <form onSubmit={submit}>
                 <h1 class="h3 mb-4" style={{ fontWeight: '600 !important', letterSpacing: '2px' }}>Sign In</h1>
                 <div class="form-floating">
                   <input type="email"
@@ -85,7 +85,7 @@ function Login(props) {
                   <label for="floatingPassword">Password</label>
                 </div>
 
-                <button class="w-100 btn btn-lg btn-primary" type="submit" onClick={submit}>Sign in</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
 
               </form>
             </main>
