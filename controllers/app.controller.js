@@ -29,8 +29,8 @@ class AppsControllers {
     mapById = (req, res) => {
         // console.log(req.params.map_id)
         const mapId = req.params.map_id;
-        var mapList = MapList;
-        let result = mapList.filter(item => item.id == mapId)
+        var map_List = MapList;
+        let result = map_List.filter(item => item.id == mapId)
         if (!(result.length > 0)) {
             return res.json({
                 code: 400,
